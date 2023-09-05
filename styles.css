@@ -1,0 +1,89 @@
+
+.wish {
+ 
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(136, 87, 87, 0.2); 
+    box-shadow: #2b0404;
+    width: 500px;
+    height: 550px;
+    /* background-color: #f0f0f0; */
+    /* margin: 20px; */
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.3);
+}
+.wish:hover{
+    /* background-color: #e465108a; */
+    padding: 10px 20px;
+    background-color: #e3e5e9;
+    border: none;
+    cursor: pointer;
+
+}
+body{
+    background-image: url("https://cutewallpaper.org/22/coffee-laptop-wallpapers/2890214804.jpg");
+    /* background-image: url("https://wallpaperaccess.com/full/482308.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    }
+ .animated{
+    font-size: 24px;
+    color: #333;
+    transition: all 0.5s ease; /* Add a smooth transition for changes */
+
+ } 
+ @keyframes scaleAndColorChange {
+    0% {
+        font-size: 24px;
+        color: #8ac71a;
+    }
+    50% {
+        font-size: 36px;
+        color: #0a0a0abe;
+    }
+    100% {
+        font-size: 24px;
+        color: #6d1010;
+    }
+}
+
+  
+    .animated:hover {
+        animation: scaleAndColorChange 2s infinite; /* Apply the animation infinitely */
+    }
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    margin: 10px auto;
+}
+
+h1 {
+    font-size: 24px;
+    color: #bb3d3d;
+}
+
+p {
+    font-size: 30px;
+    color: #0a0a0a;
+}
+.move{
+    font-size: 16px;
+    color: #0a0a0a;
+    position: relative; /* Needed for positioning */
+    animation: moveParagraph 5s linear infinite; /* Apply the animation infinitely */
+}
+
+
+@keyframes moveParagraph {
+    0% {
+        margin: 0;
+    }
+    100% {
+        margin: 50%; 
+     }
+}
